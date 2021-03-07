@@ -84,8 +84,9 @@ nav a:first-child {
 /* footer */
 
 .footer {
-	position: fixed;
+	position: absolute;
 	bottom: 0;
+
     width: 100%;
     background-color: blue;
     color: white;
@@ -162,7 +163,7 @@ input[type=submit] {
     font-size: 18px;
     color: #ffffff;
     cursor: pointer;
-    background:  #4aaaa5;
+    background: blue;
     border: 0 none;
 }
 
@@ -170,11 +171,10 @@ input[type=submit] {
 
 .work {
     position: relative;
-    float: left;
+    float: center;
     width: 274px;
     margin: 20px 0 25px;
     overflow: hidden;
-    background-size: cover;
     margin-right: 30px;
   }
   
@@ -195,22 +195,22 @@ input[type=submit] {
   
   .work h3 {
     position: absolute;
-    bottom: 20px;
+    bottom: 0px;
     width: 100%;
-    padding: 15px;
+    padding: 30px;
     margin-bottom: 0;
     font-weight: 300;
     line-height: 30px;
     color: #ffffff;
     text-align: center;
-    background: #4aaaa5;
+    background: blue;
     border-bottom: 0;
     opacity: 90%
      
   }
   
   .auth-image {
-    float: left;
+    float: center;
     width: 200px;
     height: auto;
     margin-top: 10px;
