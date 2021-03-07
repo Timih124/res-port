@@ -32,8 +32,7 @@ h1, h2, h3, p{
 h1, h2, h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 700;
-    color: #4aaaa5
-}
+    color:blue}
 
 h1 {
     padding-bottom: 20px;
@@ -84,9 +83,8 @@ nav a:first-child {
 /* footer */
 
 .footer {
-	position: absolute;
+	position: fixed;
 	bottom: 0;
-
     width: 100%;
     background-color: blue;
     color: white;
@@ -104,7 +102,7 @@ h3, h2{
     border-bottom: 2px solid #eeeeee;
 }
 
-/* main */
+/* portfolio page */
 
 #mainContainer {
     padding-top: 100
@@ -127,15 +125,9 @@ h3, h2{
       flex-direction: wrap;
 
   }
-/* contact page */
+/* for the contact page */
 
-#contact-form ul{
-    margin-bottom: 10px;
-}
 
-#contactForm li {
-    margin-bottom: 10px;
-}
 
 label,
 input[type=text],
@@ -167,7 +159,7 @@ input[type=submit] {
     border: 0 none;
 }
 
-/* Portfolio */
+/* main section of pages */
 
 .work {
     position: relative;
@@ -178,20 +170,15 @@ input[type=submit] {
     margin-right: 30px;
   }
   
-  .work:nth-child(even) {
-    /* display: flex; */
-    /* justify-content: space-evenly; */
-    margin-right: 30px;
-  }
-  
+
+
   
   .work img {
     width: 100%;
     border: 0 none;
-    opacity: 1.0;
-
-    
+    opacity: 1.0; 
   }
+
   
   .work h3 {
     position: absolute;
